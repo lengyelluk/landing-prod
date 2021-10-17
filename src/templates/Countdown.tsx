@@ -28,10 +28,9 @@ const getTimeHours:Function = (time: number) => ((time % daySeconds) / hourSecon
 const getTimeDays:Function = (time: number) => (time / daySeconds) | 0;
 
 const Countdown = (props: ICountdownProps) => {
-  const stratTime = Date.now() / 1000; // use UNIX timestamp in seconds
-  const endTime = stratTime + 2592000; // use UNIX timestamp in seconds
-
-  const remainingTime = endTime - stratTime;
+  const now = Math.ceil(Date.now() / 1000); //get UNIX timestamp of now in seconds
+  const endTime = 1637179200; // use UNIX timestamp in seconds
+  const remainingTime = endTime - now; //get the different from now until endtime
   const days = Math.ceil(remainingTime / daySeconds);
   const daysDuration = days * daySeconds;
 
