@@ -1,10 +1,4 @@
-import Link from 'next/link';
-
 import { Background } from '../background/Background';
-import { Section } from '../layout/Section';
-import { NavbarTwoColumns } from '../navigation/NavbarTwoColumns';
-import { Logo } from './Logo';
-import { Parallax } from 'react-parallax';
 
 const ParallaxHero = () => (
   <Background color="bg-blue-400">

@@ -1,6 +1,5 @@
 import { Countdown } from "./Countdown";
 import { Section } from "../layout/Section";
-import { ParallaxHero } from "./ParallaxHero";
 
 const Presale = () => (
   <>
