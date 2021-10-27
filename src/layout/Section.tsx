@@ -9,7 +9,7 @@ type ISectionProps = {
 
 const Section = (props: ISectionProps) => (
   <div
-    className={`max-w-screen-lg mx-auto px-3 ${
+    className={`max-w-screen-xl mx-auto px-3 ${
       props.yPadding ? props.yPadding : 'py-16'
     }`}
   >
@@ -19,7 +19,7 @@ const Section = (props: ISectionProps) => (
           <h2 className="text-4xl pb-4 text-gray-900 font-bold">{props.title}</h2>
         )}
         {props.description && (
-          <div className="mt-4 text-xl md:px-20">{props.description}</div>
+          <div className="text-justify mt-4 text-xl px-6">{props.description}</div>
         )}
       </div>
     )}

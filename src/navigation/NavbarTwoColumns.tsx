@@ -3,7 +3,7 @@ import { ReactNode } from 'react';
 import Link from 'next/link';
 
 type INavbarProps = {
-  logo: ReactNode;
+  logo?: ReactNode;
   children: ReactNode;
 };
 

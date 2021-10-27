@@ -45,8 +45,10 @@ const Form2 = (props: IFormProps) => {
         placeholder={props.placeholder}
         required
       />
-       <div className='inline-block rounded-md text-center text-lg font-semibold py-2 px-4 text-white bg-primary-500 hover:bg-primary-600'>
-        <button type="submit">Registrovať</button>
+       <div className='h-12 inline-block rounded-md text-center text-lg py-2 px-8 text-white bg-primary-500 hover:bg-primary-600'>
+        <button
+          className='extrabold' 
+          type="submit">Registrovať</button>
     </div> 
     </form>
   );

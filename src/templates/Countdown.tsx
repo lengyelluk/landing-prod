@@ -29,7 +29,7 @@ const getTimeDays:Function = (time: number) => (time / daySeconds) | 0;
 
 const Countdown = (props: ICountdownProps) => {
   const now = Math.ceil(Date.now() / 1000); //get UNIX timestamp of now in seconds
-  const endTime = 1637179200; // use UNIX timestamp in seconds
+  const endTime = 1638388800; // use UNIX timestamp in seconds
   const remainingTime = endTime - now; //get the different from now until endtime
   const days = Math.ceil(remainingTime / daySeconds);
   const daysDuration = days * daySeconds;
@@ -39,7 +39,7 @@ const Countdown = (props: ICountdownProps) => {
   const color3: string = '#3884A7';
   //className="flex sm:flex-row flex-col sm:justify-center space-x-3"
   return (
-    <div className="flex flex-wrap justify-center space-x-3">
+    <div className="flex flex-wrap items-center justify-center space-x-3 space-y-2">
       <CountdownCircleTimer
         {...props}
         colors={color1}
@@ -77,7 +77,6 @@ const Countdown = (props: ICountdownProps) => {
         }
       </CountdownCircleTimer>
       <CountdownCircleTimer
-
         {...props}
         colors={color2}
         duration={minuteSeconds}
