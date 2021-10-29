@@ -1,7 +1,7 @@
 import { Meta } from '../layout/Meta';
 import { AppConfig } from '../utils/AppConfig';
 import { Footer } from './Footer';
-import { Hero } from './Hero';
+import { HeroSuccess } from './HeroSuccess';
 import { VerticalFeatureDuplicate } from './VerticalFeatureDuplicate';
 
 const Duplicate = () => (
@@ -10,7 +10,7 @@ const Duplicate = () => (
       title={AppConfig.success_title}
       description={AppConfig.success_description}
     />
-    <Hero />
+    <HeroSuccess />
     <VerticalFeatureDuplicate />
     <Footer />
   </div>
