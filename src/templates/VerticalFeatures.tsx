@@ -4,6 +4,7 @@ import { Section } from '../layout/Section';
 const data1 = {
   graphTitle: 'Ceny výrobcov prudko rastú, čaká nás budúci rast výdavkov spotrebiteľov',
   graphDescription: 'Okolité krajiny s vlastnou menovou politikou môžu zvyšovať sadzby aby spomalili rast cien. ECB pokračuje v tlaku na rast cien, len aby neublížila zadĺženým krajinám. Slováci si tak za svoje eurá kúpia menej. (Pozn.: index cien v roku 2015 = 100)',
+  source: 'Zdroj: Ekonomický tím Slovenskej digitálnej koruny na základe údajov OECD',
   labels: ["2015","","","","","","","","","","","","2016","","","","","","","","","","","","2017","","","","","","","","","","","","2018","","","","","","","","","","","","2019","","","","","","","","","","","","2020","","","","","","","","","","","","2021","","","","","","",""],
   datasets: [
     {
@@ -72,6 +73,7 @@ const data1 = {
 const data2 = {
   graphTitle: 'ECB nafukuje svoju bilanciu a znehodnocuje cenu eura',
   graphDescription: 'Ceny nehnuteľnosti na Slovensku vzrástli za dekádu takmer o 60 percent. Miesto trojizbového bytu si dnes kúpite len jednoizbový. (Pozn.: index ceny nehnuteľnosti v roku 2010 = 100)',
+  source: 'Zdroj: Ekonomický tím Slovenskej digitálnej koruny na základe údajov ECB a Eurostatu',
   labels: ["2006","","","","2007","","","","2008","","","","2009","","","","2010","","","","2011","","","","2012","","","","2013","","","","2014","","","","2015","","","","2016","","","","2017","","","","2018","","","","2019","","","","2020","","","","2021",""],
   datasets: [
     {
@@ -154,6 +156,7 @@ const data2 = {
 const data3 = {
   graphTitle: 'Ceny Bitcoin a Ether sa šplhajú do rekordných úrovní a bohato odmeňujú dlhodobých investorov',
   graphDescription: 'Kurzy BTC/EUR a ETH/EUR na začiatku jednotlivých mesiacov od roku 2016 ukazujú jasný vzostupný trend. Súčasná vysoká cena populárnych kryptomien môže byť limitujúca pre budúce zisky. Investovať medzi prvými prináša s vyšším rizikom aj možnosť vyššieho zisku.',
+  source: 'Zdroj: Ekonomický tím Slovenskej digitálnej koruny na základe údajov CoinGecko',
   labels: ["2016","","","","","","","","","","","","2017","","","","","","","","","","","","2018","","","","","","","","","","","","2019","","","","","","","","","","","","2020","","","","","","","","","","","","2021","","","","","","","","","",""],
   datasets: [
     {

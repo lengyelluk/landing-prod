@@ -9,8 +9,10 @@ const Annotation = () => (
         <LeftAnnotation order="3" text="Rotácie hlasovacích práv v Rade guvernérov ECB" link="https://www.ecb.europa.eu/explainers/tell-me-more/html/voting-rotation.sk.html" />
         <LeftAnnotation order="4" text="Should the ECB publish its minutes?" link="https://voxeu.org/article/should-ecb-minutes-be-published" />
         <LeftAnnotation order="5" text="Krajiny eurozóny" link="https://europa.eu/european-union/about-eu/euro/which-countries-use-euro_sk" />
-        <LeftAnnotation order="6" text="Zdroj dát indexy cien a aktíva ECB - Eurostat" link="https://ec.europa.eu/eurostat" />
-        <LeftAnnotation order="7" text="Zdroj dát kurzy BTC a ETH - CoinGecko" link="https://www.coingecko.com" />
+        <LeftAnnotation order="6" text="Zdroj dát index cien - Eurostat" link="https://ec.europa.eu/eurostat" />
+        <LeftAnnotation order="7" text="Zdroj dát PPI - OECD" link="https://data.oecd.org/price/producer-price-indices-ppi.htm#indicator-chart" />
+        <LeftAnnotation order="8" text="Zdroj dát aktíva - ECB" link="https://www.ecb.europa.eu/stats/html/index.en.html" />
+        <LeftAnnotation order="9" text="Zdroj dát kurzy BTC a ETH - CoinGecko" link="https://www.coingecko.com" />
     </Section>
 );
 
