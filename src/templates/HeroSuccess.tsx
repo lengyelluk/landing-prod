@@ -16,8 +16,8 @@ const HeroSuccess = () => (
           </Link>
         </li>
         <li>
-          <Link href="https://www.instagram.com/slovenskadigitalnakoruna/">
-            <a target="_blank">Instagram</a>
+          <Link href="https://twitter.com/DigitalnaKoruna">
+            <a target="_blank">Twitter</a>
           </Link>
         </li>
       </NavbarTwoColumns>

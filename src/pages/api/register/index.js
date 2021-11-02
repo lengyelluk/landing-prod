@@ -3,7 +3,6 @@ import { PrismaClientKnownRequestError } from '@prisma/client/runtime';
 
 export default async function handler(req, res) {
   const { email } = JSON.parse(req.body);
-  console.log('I am here');
   let result = '';
   try {
     result = await prisma.user.create({

@@ -25,8 +25,6 @@ const VerticalFeatureRow = (props: IVerticalFeatureRowProps) => {
   );
   
   const router = useRouter();
-  const displayImage = props.image;
-  console.log(displayImage)
 
   return (
     <div className={verticalFeatureClass}>

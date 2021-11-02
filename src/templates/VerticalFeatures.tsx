@@ -5,7 +5,7 @@ const data1 = {
   graphTitle: 'Ceny výrobcov prudko rastú, čaká nás budúci rast výdavkov spotrebiteľov',
   graphDescription: 'Okolité krajiny s vlastnou menovou politikou môžu zvyšovať sadzby, aby spomalili rast cien. ECB pokračuje v tlaku na rast cien, len aby neublížila zadlženým krajinám. Slováci si tak za svoje eurá kúpia menej. (Pozn.: index cien v roku 2015 = 100)',
   source: 'Zdroj: Ekonomický tím Slovenskej digitálnej koruny na základe údajov OECD',
-  labels: ["2015","","","","","","","","","","","","2016","","","","","","","","","","","","2017","","","","","","","","","","","","2018","","","","","","","","","","","","2019","","","","","","","","","","","","2020","","","","","","","","","","","","2021","","","","","","",""],
+  labels: ["1/2015","2/2015","3/2015","4/2015","5/2015","6/2015","7/2015","8/2015","9/2015","10/2015","11/2015","12/2015","1/2016","2/2016","3/2016","4/2016","5/2016","6/2016","7/2016","8/2016","9/2016","10/2016","11/2016","12/2016","1/2017","2/2017","3/2017","4/2017","5/2017","6/2017","7/2017","8/2017","9/2017","10/2017","11/2017","12/2017","1/2018","2/2018","3/2018","4/2018","5/2018","6/2018","7/2018","8/2018","9/2018","10/2018","11/2018","12/2018","1/2019","2/2019","3/2019","4/2019","5/2019","6/2019","7/2019","8/2019","9/2019","10/2019","11/2019","12/2019","1/2020","2/2020","3/2020","4/2020","5/2020","6/2020","7/2020","8/2020","9/2020","10/2020","11/2020","12/2020","1/2021","2/2021","3/2021","4/2021","5/2021","6/2021","7/2021","8/2021"],
   datasets: [
     {
       label: 'Slovensko',
@@ -72,9 +72,9 @@ const data1 = {
 
 const data2 = {
   graphTitle: 'ECB nafukuje svoju bilanciu a znehodnocuje cenu eura',
-  graphDescription: 'Ceny nehnuteľností na Slovensku vzrástli za dekádu takmer o 60 percent. Namiesto trojizbového bytu si dnes kúpite v rovnakej hodnote len jednoizbový. (Pozn.: index ceny nehnuteľnosti v roku 2010 = 100)',
+  graphDescription: 'Ceny nehnuteľností na Slovensku vzrástli za dekádu takmer o 60 percent. Namiesto trojizbového bytu si dnes kúpite v rovnakej hodnote len jednoizbový. (Pozn.: index cien nehnuteľností v roku 2010 = 100)',
   source: 'Zdroj: Ekonomický tím Slovenskej digitálnej koruny na základe údajov ECB a Eurostatu',
-  labels: ["2006","","","","2007","","","","2008","","","","2009","","","","2010","","","","2011","","","","2012","","","","2013","","","","2014","","","","2015","","","","2016","","","","2017","","","","2018","","","","2019","","","","2020","","","","2021",""],
+  labels: ["Q1 2006","Q2 2006","Q3 2006","Q4 2006","Q1 2007","Q2 2007","Q3 2007","Q4 2007","Q1 2008","Q2 2008","Q3 2008","Q4 2008","Q1 2009","Q2 2009","Q3 2009","Q4 2009","Q1 2010","Q2 2010","Q3 2010","Q4 2010","Q1 2011","Q2 2011","Q3 2011","Q4 2011","Q1 2012","Q2 2012","Q3 2012","Q4 2012","Q1 2013","Q2 2013","Q3 2013","Q4 2013","Q1 2014","Q2 2014","Q3 2014","Q4 2014","Q1 2015","Q2 2015","Q3 2015","Q4 2015","Q1 2016","Q2 2016","Q3 2016","Q4 2016","Q1 2017","Q2 2017","Q3 2017","Q4 2017","Q1 2018","Q2 2018","Q3 2018","Q4 2018","Q1 2019","Q2 2019","Q3 2019","Q4 2019","Q1 2020","Q2 2020","Q3 2020","Q4 2020","Q1 2021","Q2 2021"],
   datasets: [
     {
       label: 'Celkové aktíva ECB',
@@ -99,7 +99,7 @@ const data2 = {
       data: [1067,1113,1118,1151,1163,1208,1250,1286,1366,1405,1759,2089,1836,1912,1845,1905,1943,2050,1866,2004,1888,1945,2289,2736,2964,3102,3082,2956,2648,2430,2351,2279,2161,2070,2054,2216,2334,2497,2627,2781,2942,3233,3438,3663,4101,4210,4319,4472,4530,4593,4620,4694,4696,4693,4695,4664,5200,6289,6705,6979,7494,7908],
     },
     {
-      label: 'Index ceny nehnuteľností na Slovensku',
+      label: 'Index cien nehnuteľností na Slovensku',
       yAxisID: 'B',
       fill: false,
       lineTension: 0.1,
@@ -139,7 +139,7 @@ const data2 = {
         max: 180,
         min: 60,
         title: {
-          text: 'index ceny nehnuteľností na Slovensku',
+          text: 'index cien nehnuteľností na Slovensku',
           display: true,
         }
       }
@@ -157,7 +157,7 @@ const data3 = {
   graphTitle: 'Ceny Bitcoin a Ether sa šplhajú do rekordných úrovní a bohato odmeňujú dlhodobých investorov',
   graphDescription: 'Priemerné kurzy BTC/EUR a ETH/EUR za jednotlivé mesiace od septembra 2015 ukazujú jasný vzostupný trend. Súčasná vysoká cena populárnych kryptomien môže byť limitujúca pre budúce zisky. Investovať medzi prvými prináša s vyšším rizikom aj možnosť vyššieho zisku.',
   source: 'Zdroj: Ekonomický tím Slovenskej digitálnej koruny na základe údajov CoinGecko',
-  labels: ["2015", "", "", "", "2016","","","","","","","","","","","","2017","","","","","","","","","","","","2018","","","","","","","","","","","","2019","","","","","","","","","","","","2020","","","","","","","","","","","","2021","","","","","","","","","10/2021"],
+  labels: ["9/2015", "10/2015", "11/2015", "12/2015", "1/2016","2/2016","3/2016","4/2016","5/2016","6/2016","7/2016","8/2016","9/2016","10/2016","11/2016","12/2016","1/2017","2/2017","3/2017","4/2017","5/2017","6/2017","7/2017","8/2017","9/2017","10/2017","11/2017","12/2017","1/2018","2/2018","3/2018","4/2018","5/2018","6/2018","7/2018","8/2018","9/2018","10/2018","11/2018","12/2018","1/2019","2/2019","3/2019","4/2019","5/2019","6/2019","7/2019","8/2019","9/2019","10/2019","11/2019","12/2019","1/2020","2/2020","3/2020","4/2020","5/2020","6/2020","7/2020","8/2020","9/2020","10/2020","11/2020","12/2020","1/2021","2/2021","3/2021","4/2021","5/2021","6/2021","7/2021","8/2021","9/2021","10/2021"],
   datasets: [
     {
       label: 'BTC/EUR',

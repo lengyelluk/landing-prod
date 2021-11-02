@@ -5,10 +5,10 @@ const VerticalFeatureSuccess = () => (
   <>
     <Section
       title="Registrácia prebehla v poriadku!"
-      description="Hneď ako začne predpredaj Slovenskej digitálnej koruny, dostaneš daľšie informácie. Ďakujeme!">
+      description="Hneď ako začne predpredaj Slovenskej digitálnej koruny, dostanete od nás daľšie informácie. Ďakujeme!">
       <VerticalFeatureRow
-        title="Sleduj náš Facebook a Instagram"
-        description="Buď v centre diania a dozvieš sa aktuálne informácie priamo od tímu Slovenskej digitálnej koruny."
+        title="Sledujte náš Facebook a Twitter"
+        description="Buďte v centre diania a získajte aktuálne informácie priamo od tímu Slovenskej digitálnej koruny."
         image="/assets/images/feature3.svg"
         imageAlt="Second feature alt text"
       />
