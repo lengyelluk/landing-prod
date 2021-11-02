@@ -3,7 +3,7 @@ import { Section } from '../layout/Section';
 
 const data1 = {
   graphTitle: 'Ceny výrobcov prudko rastú, čaká nás budúci rast výdavkov spotrebiteľov',
-  graphDescription: 'Okolité krajiny s vlastnou menovou politikou môžu zvyšovať sadzby aby spomalili rast cien. ECB pokračuje v tlaku na rast cien, len aby neublížila zadĺženým krajinám. Slováci si tak za svoje eurá kúpia menej. (Pozn.: index cien v roku 2015 = 100)',
+  graphDescription: 'Okolité krajiny s vlastnou menovou politikou môžu zvyšovať sadzby, aby spomalili rast cien. ECB pokračuje v tlaku na rast cien, len aby neublížila zadlženým krajinám. Slováci si tak za svoje eurá kúpia menej. (Pozn.: index cien v roku 2015 = 100)',
   source: 'Zdroj: Ekonomický tím Slovenskej digitálnej koruny na základe údajov OECD',
   labels: ["2015","","","","","","","","","","","","2016","","","","","","","","","","","","2017","","","","","","","","","","","","2018","","","","","","","","","","","","2019","","","","","","","","","","","","2020","","","","","","","","","","","","2021","","","","","","",""],
   datasets: [
@@ -72,7 +72,7 @@ const data1 = {
 
 const data2 = {
   graphTitle: 'ECB nafukuje svoju bilanciu a znehodnocuje cenu eura',
-  graphDescription: 'Ceny nehnuteľnosti na Slovensku vzrástli za dekádu takmer o 60 percent. Miesto trojizbového bytu si dnes kúpite len jednoizbový. (Pozn.: index ceny nehnuteľnosti v roku 2010 = 100)',
+  graphDescription: 'Ceny nehnuteľností na Slovensku vzrástli za dekádu takmer o 60 percent. Namiesto trojizbového bytu si dnes kúpite v rovnakej hodnote len jednoizbový. (Pozn.: index ceny nehnuteľnosti v roku 2010 = 100)',
   source: 'Zdroj: Ekonomický tím Slovenskej digitálnej koruny na základe údajov ECB a Eurostatu',
   labels: ["2006","","","","2007","","","","2008","","","","2009","","","","2010","","","","2011","","","","2012","","","","2013","","","","2014","","","","2015","","","","2016","","","","2017","","","","2018","","","","2019","","","","2020","","","","2021",""],
   datasets: [
@@ -242,29 +242,29 @@ const VerticalFeatures = () => (
     description="O výške Vašej výplaty rozhoduje Vaša kvalifikácia, zručnosti a skúsenosti. 
     Najvyššie platové ohodnotenie dosiahnete, ak budete mať kvalifikáciu v oblasti, 
     ktorú neovláda až toľko ľudí. Trhový mechanizmus založený na dopyte a ponuke Vás potom férovo ohodnotí. 
-    Ale kvôli euru nie až tak férovo ako by ste si zaslúžili... hodnota 1 eura môže byť zajtra nižšia ako dnes."
+    Ale, keďže hodnota 1 eura môže byť zajtra nižšia ako dnes, ohodnotenie za Vašu prácu nemusí byť až také férové, ako by ste si zaslúžili."
   >
     <VerticalFeatureRow
       title="Európska centrálna banka (ECB)"
       description="O tom, akú hodnotu bude mať 1 euro nerozhoduje trh, tak ako o Vašej mzde, 
       ale Rada guvernérov Európskej centrálnej banky (ECB)². O menovej politike  eurozóny, a teda aj o hodnote euromince, 
       sa rozhoduje hlasovaním (hlasuje šesť členov Výkonnej rady a 19 guvernérov národných centrálnych bánk)³.
-      Nikoho asi neprekvapí, že všetky krajiny hája svoje individuálne záujmy a guvernéri nehlasujú len podľa odporúčaní odborníkov (hlasovanie je tajné)⁴. 
-      Je samozrejmé, že bohaté krajiny ako Nemecko chcú chrániť svoje úspory. Už menej zrejmé je, že zadĺženým južanským štátom vyhovuje pokles 
+      Nikoho asi neprekvapí, že všetky krajiny obhajujú svoje individuálne záujmy a guvernéri nehlasujú len podľa odporúčaní odborníkov (hlasovanie je tajné)⁴. 
+      Je samozrejmé, že bohaté krajiny ako Nemecko chcú chrániť svoje úspory. Už menej zrejmé je, že zadlženým južným štátom vyhovuje pokles 
       hodnoty spoločnej európskej meny. S klesajúcou hodnotou eura sa znižujú ich (nesplatiteľné) dlhy bez toho, aby si občania v týchto krajinách museli utiahnuť opasky."
       graph={data2}
     />
     <VerticalFeatureRow
       title="Spoločná menová politika?"
-      description="Guvernéri by sa pri hlasovani mali rozhodovať podľa odporúčaní a modelov, ktoré vypracovalo 3500 odborníkov ECB. 
-      Hlasovanie je ale výrazne ovplyvnené protichodnými ekonomickými a politickými záujmami krajín a dokonca aj osobnými ambíciami samotných guvernérov. 
-      Jednoducho povedané, cena peňazí nie je výsledkom snahy o najlepšie možné riešenie a je otázne, či výraz spoločná menová politika správne popisuje konanie ECB."
+      description="Guvernéri by sa pri hlasovaní mali rozhodovať na základe odporúčaní a podľa modelov, ktoré vypracovalo 3500 odborníkov ECB. 
+      Hlasovanie je ale výrazne ovplyvnené protichodnými ekonomickými a politickými záujmami krajín, a dokonca aj osobnými ambíciami samotných guvernérov. 
+      Jednoducho povedané, cena peňazí nie je výsledkom snahy o najlepšie možné riešenie a je otázne, či výraz spoločná menová politika správne vystihuje konanie ECB."
       reverse
       graph={data1}
     />
     <VerticalFeatureRow
       title="Slovensko, euro a Slovenská digitálna koruna"
-      description="Záujmy 5 miliónov Slovákov sú na chvoste 340 miliónej menovej únie. 
+      description="Záujmy 5 miliónov Slovákov sú na chvoste 340 miliónovej menovej únie. 
       Mnohé vyspelé ekonomiky Európy (Dánsko alebo Švédsko) odmietli princíp umelo ovplyvňovanej meny zo zahraničia a chcú chrániť ich občanov pred 
       rozhodnutiami Rady guvernérov ECB⁵. Rovnakú možnosť budú mať aj investori do slovenskej kryptomeny. 
       Ponuka Slovenských digitálnych korún je konečná, nebude možné aby novovytvorené (vytlačené) peniaze znížili hodnotu Vašich príjmov alebo úspor. 
