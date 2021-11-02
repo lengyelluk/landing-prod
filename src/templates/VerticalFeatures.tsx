@@ -155,9 +155,9 @@ const data2 = {
 
 const data3 = {
   graphTitle: 'Ceny Bitcoin a Ether sa šplhajú do rekordných úrovní a bohato odmeňujú dlhodobých investorov',
-  graphDescription: 'Kurzy BTC/EUR a ETH/EUR na začiatku jednotlivých mesiacov od roku 2016 ukazujú jasný vzostupný trend. Súčasná vysoká cena populárnych kryptomien môže byť limitujúca pre budúce zisky. Investovať medzi prvými prináša s vyšším rizikom aj možnosť vyššieho zisku.',
+  graphDescription: 'Priemerné kurzy BTC/EUR a ETH/EUR za jednotlivé mesiace od septembra 2015 ukazujú jasný vzostupný trend. Súčasná vysoká cena populárnych kryptomien môže byť limitujúca pre budúce zisky. Investovať medzi prvými prináša s vyšším rizikom aj možnosť vyššieho zisku.',
   source: 'Zdroj: Ekonomický tím Slovenskej digitálnej koruny na základe údajov CoinGecko',
-  labels: ["2016","","","","","","","","","","","","2017","","","","","","","","","","","","2018","","","","","","","","","","","","2019","","","","","","","","","","","","2020","","","","","","","","","","","","2021","","","","","","","","","",""],
+  labels: ["2015", "", "", "", "2016","","","","","","","","","","","","2017","","","","","","","","","","","","2018","","","","","","","","","","","","2019","","","","","","","","","","","","2020","","","","","","","","","","","","2021","","","","","","","","","10/2021"],
   datasets: [
     {
       label: 'BTC/EUR',
@@ -179,7 +179,7 @@ const data3 = {
       pointHoverBorderWidth: 2,
       pointRadius: 1,
       pointHitRadius: 10,
-      data: [400,340.7,397.1,365.7,395,482.1,608.4,542.4,510.5,546.3,659.4,706.2,948.7,916.3,1163.5,1017.7,1292.2,2173.7,2135.6,2319,4099.8,3681.7,5775.3,9245.5,11732.7,8143.6,8485.2,5657.6,7612.8,6378.5,5440.2,6620,6052.2,5709.4,5626.6,3542.6,3213.3,2998,3354.9,3655.8,4719.6,7661.3,9579.7,9090.5,8725.3,7588.7,8203.7,6858.1,6412.8,8389.3,7755.8,5822.5,7867.8,8514,8144.2,9615.2,9776.8,9186.4,11799.3,16425.9,23758.7,27271.2,37203.3,50151.5,48112.2,30522.3,29666.8,35185.1,40076.7,37893,54458.5],
+      data: [207.75,236.5,324.28,389.17,378.04,363.16,372.37,382.94,409.17,571.15,597.94,515.61,539.45,581.02,671.84,783.33,856.59,1000.71,1057.4,1135.44,1697.98,2350.05,2178.38,3216.62,3401.3,4540.92,6660.19,13159.65,11114.27,7658.09,7414.33,6448.28,7137.48,5810,6046.46,5803.47,5674.46,5656.29,4839.95,3239.39,3205.87,3238.11,3476.83,4556.16,6426.81,8259.29,9528.95,9554.28,8922.56,7553.32,7587.92,6537.8,7473.02,8850.28,6268.58,6564.22,8441.67,8437.16,8313.7,9834.91,9049.06,10014.42,13893.51,17827.06,28456.84,37934,45795.38,47832.59,38899.82,29852.77,28974.58,38714.27,39112.73,49006.24],
     },
     {
       label: 'ETH/EUR',
@@ -201,7 +201,7 @@ const data3 = {
       pointHoverBorderWidth: 2,
       pointRadius: 1,
       pointHitRadius: 10,
-      data: [0.9, 2, 7, 10.2, 7.7, 12.4, 11.1, 9.8, 10.7, 11.8, 9.8, 7.9, 7.7, 9.9, 16.3, 47.3, 70.5, 197.9, 229.7, 192.4, 325.7, 253.8, 251.4, 395.1, 646.1, 890.6, 694.1, 321, 548.5, 488.8, 384, 369.9, 243.1, 200.6, 175.5, 100.2, 114.4, 92.9, 119.1, 126.1, 143.3, 239.5, 257.6, 197.5, 156.3, 164.9, 163.8, 137.7, 115.1, 161.5, 198, 120.8, 187.8, 208.9, 200.8, 293.8, 364.9, 306.7, 330.4, 512.9, 604.7, 1086.3, 1171.8, 1633.7, 2310.2, 2213.9, 1922.6, 2141.8, 2913, 2603.6,3643.5]
+      data: [0.88,0.59,0.87,0.81,1.36,4.06,9.98,7.91,10.05,12.74,10.69,9.88,11.11,10.92,9.22,7.41,9.53,11.61,31.78,47.31,111.26,274.05,192.15,253.67,245.34,259.94,305.17,543.23,916.32,706.98,515.56,413.67,570.18,444.22,393.47,281.76,196.46,183.96,151.94,94.22,111.45,110.55,120.2,146.4,193.52,242.36,223.27,180.41,168.22,161.57,157.24,124.26,139.43,217.64,146.74,155.35,188.97,209.88,222.9,337.14,313.93,318.6,404.21,509.03,972.97,1403.23,1445.56,1895.9,2599.36,1951.01,1797.92,2608.73,2844.85,3190.61]
     }
   ],
   options: {
@@ -240,7 +240,7 @@ const VerticalFeatures = () => (
   <Section
     title="Práca, peniaze a ich hodnota"
     description="O výške Vašej výplaty rozhoduje Vaša kvalifikácia, zručnosti a skúsenosti. 
-    Najvyššie platové ohodnotenie dosiahnete, ak budete mat kvalifikáciu v oblasti, 
+    Najvyššie platové ohodnotenie dosiahnete, ak budete mať kvalifikáciu v oblasti, 
     ktorú neovláda až toľko ľudí. Trhový mechanizmus založený na dopyte a ponuke Vás potom férovo ohodnotí. 
     Ale kvôli euru nie až tak férovo ako by ste si zaslúžili... hodnota 1 eura môže byť zajtra nižšia ako dnes."
   >
@@ -258,7 +258,7 @@ const VerticalFeatures = () => (
       title="Spoločná menová politika?"
       description="Guvernéri by sa pri hlasovani mali rozhodovať podľa odporúčaní a modelov, ktoré vypracovalo 3500 odborníkov ECB. 
       Hlasovanie je ale výrazne ovplyvnené protichodnými ekonomickými a politickými záujmami krajín a dokonca aj osobnými ambíciami samotných guvernérov. 
-      Jednoducho povedané, cena peňazí nie je výsledkom snahy o najlepšie možné riešenie a je otázne či výraz spoločná menová politika správne popisuje konanie ECB."
+      Jednoducho povedané, cena peňazí nie je výsledkom snahy o najlepšie možné riešenie a je otázne, či výraz spoločná menová politika správne popisuje konanie ECB."
       reverse
       graph={data1}
     />
@@ -269,7 +269,7 @@ const VerticalFeatures = () => (
       rozhodnutiami Rady guvernérov ECB⁵. Rovnakú možnosť budú mať aj investori do slovenskej kryptomeny. 
       Ponuka Slovenských digitálnych korún je konečná, nebude možné aby novovytvorené (vytlačené) peniaze znížili hodnotu Vašich príjmov alebo úspor. 
       Naopak, rastúci dopyt bude viesť k rastu hodnoty Vašich investícii. 
-      Ceny kryptomien sa rovnako ako Vaša mzda odvíja od trhového mechanizmu dopytu a ponuky. 
+      Ceny kryptomien sa odvíjajú, rovnako ako Vaša mzda, od trhového mechanizmu dopytu a ponuky. 
       Slovenská digitálna koruna nevzniká mimo územia Slovenska, nehlasuje sa o jej hodnote a komerčné banky nemajú na jej hodnotu žiadny vplyv."
       graph={data3}
     />
