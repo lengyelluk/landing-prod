@@ -8,13 +8,13 @@ const Presale = () => (
       description="Kým dočítate tento odsek, 100 tisíc eur práve stratilo 1 cent zo svojej hodnoty.  
       Pre 1 centovú medenú mincu sa bežný Slovák ani nezohne, prečo teda o nej píšeme? 
       Za 13 rokov vďaka centovým stratám prídete o polovicu svojho majetku¹. 
-      Váš vysnívaný dom na ktorý roky sporíte bude polovičný (čo znamená, že si dom nikdy nepostavíte)."
+      Váš vysnívaný dom, na ktorý roky sporíte, bude polovičný (čo znamená, že si dom nikdy nepostavíte)."
       yPadding="pt-4"
       />
         <Section 
-      description="Pre tých ktorí sa nechcú prizerať ako ich eurové úspory strácajú na hodnote prinášame riešenie. 
+      description="Pre tých, ktorí sa nechcú prizerať ako ich eurové úspory strácajú na hodnote, prinášame riešenie. 
       Investícia do kryptomeny Slovenská digitálna koruna bude už čoskoro možná v exkluzívnom predpredaji! Získajte možnosť úspešne ochrániť 
-      hodnotu vašich peňazí už za:"
+      hodnotu Vašich peňazí už za:"
       yPadding="pb-8"
     />
     <Countdown 
